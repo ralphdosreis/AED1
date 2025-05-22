@@ -1,4 +1,8 @@
-// Pilha estática é um tipo de estrutura de dados, de tamanho variável, em que se estabelece a política LIFO (Last In, First Out) para a inserção e remoção de dados
+// Pilhas, Filas e Listas são comumente implementadas como estruturas de dados dinâmicas, pois permitem inserção e remoção de elementos após a criação da estrutura.
+// Vetores e Matrizes, especialmente em linguagens como C, são estruturas estáticas, pois seu tamanho é fixado na criação e não pode ser alterado posteriormente.
+// Estruturas de dados dinâmicas não exigem que seus elementos estejam alocados sequencialmente na memória, ao contrário das estruturas estáticas como vetores.
+// Isso é vantajoso em situações em que não há espaço contíguo suficiente na memória, permitindo a alocação eficiente de muitos elementos em posições separadas.
+// Pilha é um tipo de estrutura de dados, de tamanho variável, em que se estabelece a política LIFO (Last In, First Out) para a inserção e remoção de elementos nela(dela)
 //Há, essencialmente, duas maneiras para representar computacionalmente uma pilha: 1) por contiguidade (alocação estática); 2) por encadeamento (alocação dinâmica)
 
 #include <stdio.h>
